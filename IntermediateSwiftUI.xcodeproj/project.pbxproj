@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3519DAAD277D672E00B448C0 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3519DAAC277D672E00B448C0 /* ScrollViewReaderBootcamp.swift */; };
+		3519DAAF277D747C00B448C0 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3519DAAE277D747B00B448C0 /* GeometryReaderBootcamp.swift */; };
+		3519DAB1277D7CDB00B448C0 /* SoundBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3519DAB0277D7CDB00B448C0 /* SoundBootcamp.swift */; };
+		3519DAB4277D813B00B448C0 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3519DAB3277D813B00B448C0 /* badum.mp3 */; };
+		3519DAB6277D814B00B448C0 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3519DAB5277D814B00B448C0 /* tada.mp3 */; };
+		3519DAB8277D895500B448C0 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3519DAB7277D895500B448C0 /* AnyTransitionBootcamp.swift */; };
+		3519DABA277D9CAB00B448C0 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3519DAB9277D9CAB00B448C0 /* ViewModifierBootcamp.swift */; };
 		35AB55672769AEB100BF0893 /* IntermediateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AB55662769AEB100BF0893 /* IntermediateSwiftUIApp.swift */; };
-		35AB55692769AEB100BF0893 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AB55682769AEB100BF0893 /* ContentView.swift */; };
 		35AB556B2769AEB200BF0893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AB556A2769AEB200BF0893 /* Assets.xcassets */; };
 		35AB556E2769AEB200BF0893 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AB556D2769AEB200BF0893 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3519DAAC277D672E00B448C0 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
+		3519DAAE277D747B00B448C0 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
+		3519DAB0277D7CDB00B448C0 /* SoundBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBootcamp.swift; sourceTree = "<group>"; };
+		3519DAB3277D813B00B448C0 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		3519DAB5277D814B00B448C0 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		3519DAB7277D895500B448C0 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
+		3519DAB9277D9CAB00B448C0 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		35AB55632769AEB100BF0893 /* IntermediateSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35AB55662769AEB100BF0893 /* IntermediateSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftUIApp.swift; sourceTree = "<group>"; };
-		35AB55682769AEB100BF0893 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35AB556A2769AEB200BF0893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35AB556D2769AEB200BF0893 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3519DAB2277D80AA00B448C0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3519DAB5277D814B00B448C0 /* tada.mp3 */,
+				3519DAB3277D813B00B448C0 /* badum.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		35AB555A2769AEB100BF0893 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				35AB55662769AEB100BF0893 /* IntermediateSwiftUIApp.swift */,
-				35AB55682769AEB100BF0893 /* ContentView.swift */,
+				3519DAAC277D672E00B448C0 /* ScrollViewReaderBootcamp.swift */,
+				3519DAAE277D747B00B448C0 /* GeometryReaderBootcamp.swift */,
+				3519DAB0277D7CDB00B448C0 /* SoundBootcamp.swift */,
+				3519DAB7277D895500B448C0 /* AnyTransitionBootcamp.swift */,
+				3519DAB9277D9CAB00B448C0 /* ViewModifierBootcamp.swift */,
+				3519DAB2277D80AA00B448C0 /* Sounds */,
 				35AB556A2769AEB200BF0893 /* Assets.xcassets */,
 				35AB556C2769AEB200BF0893 /* Preview Content */,
 			);
@@ -125,6 +151,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3519DAB6277D814B00B448C0 /* tada.mp3 in Resources */,
+				3519DAB4277D813B00B448C0 /* badum.mp3 in Resources */,
 				35AB556E2769AEB200BF0893 /* Preview Assets.xcassets in Resources */,
 				35AB556B2769AEB200BF0893 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35AB55692769AEB100BF0893 /* ContentView.swift in Sources */,
+				3519DAAD277D672E00B448C0 /* ScrollViewReaderBootcamp.swift in Sources */,
+				3519DAB1277D7CDB00B448C0 /* SoundBootcamp.swift in Sources */,
+				3519DABA277D9CAB00B448C0 /* ViewModifierBootcamp.swift in Sources */,
+				3519DAB8277D895500B448C0 /* AnyTransitionBootcamp.swift in Sources */,
 				35AB55672769AEB100BF0893 /* IntermediateSwiftUIApp.swift in Sources */,
+				3519DAAF277D747C00B448C0 /* GeometryReaderBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
