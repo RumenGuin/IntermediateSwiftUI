@@ -17,6 +17,10 @@
 		35AB55672769AEB100BF0893 /* IntermediateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AB55662769AEB100BF0893 /* IntermediateSwiftUIApp.swift */; };
 		35AB556B2769AEB200BF0893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AB556A2769AEB200BF0893 /* Assets.xcassets */; };
 		35AB556E2769AEB200BF0893 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AB556D2769AEB200BF0893 /* Preview Assets.xcassets */; };
+		35DE273D277DE2A400F6AF5F /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE273C277DE2A400F6AF5F /* MatchedGeometryEffectBootcamp.swift */; };
+		35DE273F277DE8FD00F6AF5F /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE273E277DE8FD00F6AF5F /* CustomShapesBootcamp.swift */; };
+		35DE2741277E09A400F6AF5F /* CustomCurveBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE2740277E09A400F6AF5F /* CustomCurveBootcamp.swift */; };
+		35DE2743277E218700F6AF5F /* AnimatableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DE2742277E218700F6AF5F /* AnimatableDataBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		35AB55662769AEB100BF0893 /* IntermediateSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftUIApp.swift; sourceTree = "<group>"; };
 		35AB556A2769AEB200BF0893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35AB556D2769AEB200BF0893 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35DE273C277DE2A400F6AF5F /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
+		35DE273E277DE8FD00F6AF5F /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
+		35DE2740277E09A400F6AF5F /* CustomCurveBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveBootcamp.swift; sourceTree = "<group>"; };
+		35DE2742277E218700F6AF5F /* AnimatableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,10 @@
 				3519DAB0277D7CDB00B448C0 /* SoundBootcamp.swift */,
 				3519DAB7277D895500B448C0 /* AnyTransitionBootcamp.swift */,
 				3519DAB9277D9CAB00B448C0 /* ViewModifierBootcamp.swift */,
+				35DE273C277DE2A400F6AF5F /* MatchedGeometryEffectBootcamp.swift */,
+				35DE273E277DE8FD00F6AF5F /* CustomShapesBootcamp.swift */,
+				35DE2740277E09A400F6AF5F /* CustomCurveBootcamp.swift */,
+				35DE2742277E218700F6AF5F /* AnimatableDataBootcamp.swift */,
 				3519DAB2277D80AA00B448C0 /* Sounds */,
 				35AB556A2769AEB200BF0893 /* Assets.xcassets */,
 				35AB556C2769AEB200BF0893 /* Preview Content */,
@@ -166,10 +178,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3519DAAD277D672E00B448C0 /* ScrollViewReaderBootcamp.swift in Sources */,
+				35DE273F277DE8FD00F6AF5F /* CustomShapesBootcamp.swift in Sources */,
+				35DE2743277E218700F6AF5F /* AnimatableDataBootcamp.swift in Sources */,
 				3519DAB1277D7CDB00B448C0 /* SoundBootcamp.swift in Sources */,
 				3519DABA277D9CAB00B448C0 /* ViewModifierBootcamp.swift in Sources */,
 				3519DAB8277D895500B448C0 /* AnyTransitionBootcamp.swift in Sources */,
 				35AB55672769AEB100BF0893 /* IntermediateSwiftUIApp.swift in Sources */,
+				35DE2741277E09A400F6AF5F /* CustomCurveBootcamp.swift in Sources */,
+				35DE273D277DE2A400F6AF5F /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				3519DAAF277D747C00B448C0 /* GeometryReaderBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
