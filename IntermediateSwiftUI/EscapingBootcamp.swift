@@ -25,7 +25,7 @@ class EscapingViewModel: ObservableObject {
        
     }
     
-    func downloadData() -> String {  //synchronous code
+    func downloadData() -> String {  //synchronous code (immediately execute and return)
         return "New Data"
     }
     //we dont want to give an external name thats why _(underscore)
@@ -34,7 +34,7 @@ class EscapingViewModel: ObservableObject {
     }
     
     
-    //@escaping makes our code asynchronous(means its not going to immediately execute and return)
+    //@escaping makes our code asynchronous(means its NOT going to immediately execute and return)
     func downloadData3(completionHandler: @escaping (_ data: String) -> ()) { //Void == ()
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
