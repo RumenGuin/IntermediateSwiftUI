@@ -20,7 +20,7 @@ struct CustomerModel: Identifiable, Codable { // Codable = Decodable + Encodable
     let isPremium: Bool
     
     ///Codable Protocol do this all behind the scene for us. We DO NOT need to do this
-//    enum CodingKeys: String, CodingKey {
+//    enum CodingKeys: String, CodingKey { //for decoding
 //        case id
 //        case name
 //        case points
