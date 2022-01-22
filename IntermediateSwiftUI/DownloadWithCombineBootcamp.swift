@@ -57,6 +57,7 @@ class DownloadWithCombineViewModel: ObservableObject {
             .decode(type: [PostModel2].self, decoder: JSONDecoder())
             .replaceError(with: [])
             .sink(receiveValue: { [weak self] returnedPosts in
+                //this is asynchronous code, so this is not returning immediately but whenever these values come back, so self is strong reference to this class hence we're going to make weak reference by using weak self
                 self?.posts = returnedPosts
             })
 //            .sink { completion in
