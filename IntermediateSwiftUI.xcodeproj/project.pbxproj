@@ -39,6 +39,9 @@
 		35AB55672769AEB100BF0893 /* IntermediateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AB55662769AEB100BF0893 /* IntermediateSwiftUIApp.swift */; };
 		35AB556B2769AEB200BF0893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AB556A2769AEB200BF0893 /* Assets.xcassets */; };
 		35AB556E2769AEB200BF0893 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AB556D2769AEB200BF0893 /* Preview Assets.xcassets */; };
+		35C41AEB27A2EACA0057AD2E /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C41AEA27A2EACA0057AD2E /* PreferenceKeyBootcamp.swift */; };
+		35C41AEE27A2EEF10057AD2E /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C41AED27A2EEF10057AD2E /* GeometryPreferenceKeyBootcamp.swift */; };
+		35C41AF027A2F4EC0057AD2E /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C41AEF27A2F4EC0057AD2E /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
 		35C6ED1627A033E00020097A /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6ED1527A033E00020097A /* NewMockDataService.swift */; };
 		35C6ED1827A0349F0020097A /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6ED1727A0349F0020097A /* NewMockDataService_Tests.swift */; };
 		35CA4F6727A265D200774434 /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA4F6627A265D200774434 /* Particle.swift */; };
@@ -111,6 +114,9 @@
 		35AB55662769AEB100BF0893 /* IntermediateSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateSwiftUIApp.swift; sourceTree = "<group>"; };
 		35AB556A2769AEB200BF0893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35AB556D2769AEB200BF0893 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35C41AEA27A2EACA0057AD2E /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		35C41AED27A2EEF10057AD2E /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		35C41AEF27A2F4EC0057AD2E /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		35C6ED1527A033E00020097A /* NewMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
 		35C6ED1727A0349F0020097A /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
 		35CA4F6627A265D200774434 /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
@@ -229,6 +235,7 @@
 				35DE2742277E218700F6AF5F /* AnimatableDataBootcamp.swift */,
 				352B868727808A49007266E8 /* GenericsBootcamp.swift */,
 				352B86892780A2E5007266E8 /* ViewBuilderBootcamp.swift */,
+				35C41AEC27A2EEC50057AD2E /* PreferenceKeyBootcamp */,
 				352B868D2780B2BB007266E8 /* ProtocolsBootcamp.swift */,
 				3570C396279E864700EF8F31 /* DependencyInjectionBootcamp.swift */,
 				3568BEC8279FA62D00F7426B /* UnitTestingBootcamp */,
@@ -264,6 +271,16 @@
 				35AB556D2769AEB200BF0893 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35C41AEC27A2EEC50057AD2E /* PreferenceKeyBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				35C41AEA27A2EACA0057AD2E /* PreferenceKeyBootcamp.swift */,
+				35C41AED27A2EEF10057AD2E /* GeometryPreferenceKeyBootcamp.swift */,
+				35C41AEF27A2F4EC0057AD2E /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
+			);
+			path = PreferenceKeyBootcamp;
 			sourceTree = "<group>";
 		};
 		35CA4F6527A2655700774434 /* Motion */ = {
@@ -432,6 +449,7 @@
 				35A8AAB0279BD3E300864D55 /* AdvancedCombineBootcamp.swift in Sources */,
 				35CA4F6D27A278D400774434 /* MotionManager.swift in Sources */,
 				35E28EA5279ACBE5004E3B23 /* TimerBootcamp.swift in Sources */,
+				35C41AEB27A2EACA0057AD2E /* PreferenceKeyBootcamp.swift in Sources */,
 				3570C397279E864700EF8F31 /* DependencyInjectionBootcamp.swift in Sources */,
 				3568BECC279FA88700F7426B /* UnitTestingViewModel.swift in Sources */,
 				35CD7E182785CCEB009AD430 /* WeakSelfBootcamp.swift in Sources */,
@@ -440,6 +458,7 @@
 				351F04462793E6C300D239B9 /* FileManagerBootcamp.swift in Sources */,
 				3568BECA279FA66700F7426B /* UnitTestingBootcampView.swift in Sources */,
 				3519DAAD277D672E00B448C0 /* ScrollViewReaderBootcamp.swift in Sources */,
+				35C41AF027A2F4EC0057AD2E /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				358DE80B2789A66400B862BE /* DownloadWithCombineBootcamp.swift in Sources */,
 				35DE273F277DE8FD00F6AF5F /* CustomShapesBootcamp.swift in Sources */,
 				355652B9278940E10060465D /* BackgroundThreadBootcamp.swift in Sources */,
@@ -464,6 +483,7 @@
 				35E28EA7279ADE65004E3B23 /* SubscriberBootcamp.swift in Sources */,
 				352E7096279D94E20088FCA8 /* FuturesBootcamp.swift in Sources */,
 				3519DAAF277D747C00B448C0 /* GeometryReaderBootcamp.swift in Sources */,
+				35C41AEE27A2EEF10057AD2E /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				35CA4F6B27A269D800774434 /* ParticleView.swift in Sources */,
 				35D6906D279D1A53000D38A1 /* CacheBootcamp.swift in Sources */,
 				352B868A2780A2E5007266E8 /* ViewBuilderBootcamp.swift in Sources */,
