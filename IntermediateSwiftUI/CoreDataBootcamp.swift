@@ -11,6 +11,16 @@ import CoreData
 // View -> UI
 // Model -> data point
 // ViewModel -> manages the data for a view
+//Database -> A database is an organized collection of structured information, or data, typically stored electronically in a computer system. The data can then be easily accessed, managed, modified, updated, controlled, and organized.
+
+//What is CoreData?
+/*
+ 
+ It is a database that is stored within the iPhone and we can use it to save data to it and this data would persist between sessions, so if a user closes the app and reopens the app this data will save.
+ Core Data is for adding an entire database, adding a ton of data rather than user defaults which should be used for small pieces of data.
+ 
+ 
+ */
 
 class CoreDataViewModel: ObservableObject {
     
