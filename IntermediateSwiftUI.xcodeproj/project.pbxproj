@@ -36,6 +36,12 @@
 		35439E4727AA4F1100300FD3 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35439E4627AA4F1100300FD3 /* CustomTabBarContainerView.swift */; };
 		35439E4927AA54DB00300FD3 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35439E4827AA54DB00300FD3 /* TabBarItemsPreferenceKey.swift */; };
 		35439E4B27AA5CA600300FD3 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35439E4A27AA5CA600300FD3 /* TabBarItem.swift */; };
+		354F5EB227AA8F70009B6212 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F5EB127AA8F70009B6212 /* AppNavBarView.swift */; };
+		354F5EB427AA9D00009B6212 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F5EB327AA9D00009B6212 /* CustomNavBarView.swift */; };
+		354F5EB627AA9FDF009B6212 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F5EB527AA9FDF009B6212 /* CustomNavBarContainerView.swift */; };
+		354F5EB827AAA2DE009B6212 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F5EB727AAA2DE009B6212 /* CustomNavView.swift */; };
+		354F5EBA27AAA82B009B6212 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F5EB927AAA82B009B6212 /* CustomNavLink.swift */; };
+		354F5EBC27AAAB8D009B6212 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354F5EBB27AAAB8D009B6212 /* CustomNavBarPreferenceKeys.swift */; };
 		355652B9278940E10060465D /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355652B8278940E10060465D /* BackgroundThreadBootcamp.swift */; };
 		3568BECA279FA66700F7426B /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3568BEC9279FA66700F7426B /* UnitTestingBootcampView.swift */; };
 		3568BECC279FA88700F7426B /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3568BECB279FA88700F7426B /* UnitTestingViewModel.swift */; };
@@ -124,6 +130,12 @@
 		35439E4627AA4F1100300FD3 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		35439E4827AA54DB00300FD3 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		35439E4A27AA5CA600300FD3 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		354F5EB127AA8F70009B6212 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		354F5EB327AA9D00009B6212 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		354F5EB527AA9FDF009B6212 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		354F5EB727AAA2DE009B6212 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		354F5EB927AAA82B009B6212 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		354F5EBB27AAAB8D009B6212 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		355652B8278940E10060465D /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		3568BEC9279FA66700F7426B /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
 		3568BECB279FA88700F7426B /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
@@ -262,6 +274,19 @@
 			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		354F5EB027AA8F22009B6212 /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				354F5EB127AA8F70009B6212 /* AppNavBarView.swift */,
+				354F5EB727AAA2DE009B6212 /* CustomNavView.swift */,
+				354F5EB327AA9D00009B6212 /* CustomNavBarView.swift */,
+				354F5EB527AA9FDF009B6212 /* CustomNavBarContainerView.swift */,
+				354F5EB927AAA82B009B6212 /* CustomNavLink.swift */,
+				354F5EBB27AAAB8D009B6212 /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNavBar;
+			sourceTree = "<group>";
+		};
 		3568BEC8279FA62D00F7426B /* UnitTestingBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,6 +354,7 @@
 				352B86892780A2E5007266E8 /* ViewBuilderBootcamp.swift */,
 				35C41AEC27A2EEC50057AD2E /* PreferenceKeyBootcamp */,
 				35439E4127AA480800300FD3 /* CustomTabBar */,
+				354F5EB027AA8F22009B6212 /* CustomNavBar */,
 				352B868D2780B2BB007266E8 /* ProtocolsBootcamp.swift */,
 				3570C396279E864700EF8F31 /* DependencyInjectionBootcamp.swift */,
 				3568BEC8279FA62D00F7426B /* UnitTestingBootcamp */,
@@ -551,6 +577,8 @@
 				3568BECC279FA88700F7426B /* UnitTestingViewModel.swift in Sources */,
 				35CD7E182785CCEB009AD430 /* WeakSelfBootcamp.swift in Sources */,
 				3537F4DF2795AD41002F3DE6 /* CoreDataBootcamp.swift in Sources */,
+				354F5EB427AA9D00009B6212 /* CustomNavBarView.swift in Sources */,
+				354F5EBA27AAA82B009B6212 /* CustomNavLink.swift in Sources */,
 				350A999127A66A7F0009B52B /* DownloadingImageView.swift in Sources */,
 				35CA4F6927A2669900774434 /* ParticleSystem.swift in Sources */,
 				351F04462793E6C300D239B9 /* FileManagerBootcamp.swift in Sources */,
@@ -562,10 +590,12 @@
 				358DE80B2789A66400B862BE /* DownloadWithCombineBootcamp.swift in Sources */,
 				35DE273F277DE8FD00F6AF5F /* CustomShapesBootcamp.swift in Sources */,
 				3571412127A6C78C00F16A1E /* PhotoModelCacheManager.swift in Sources */,
+				354F5EBC27AAAB8D009B6212 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				355652B9278940E10060465D /* BackgroundThreadBootcamp.swift in Sources */,
 				35439E4527AA499B00300FD3 /* CustomTabBarView.swift in Sources */,
 				352AB59827A7AFB900F9F912 /* CoreDataRelationshipsBootcamp.swift in Sources */,
 				3537F4E22795AECA002F3DE6 /* FruitsContainer.xcdatamodeld in Sources */,
+				354F5EB827AAA2DE009B6212 /* CustomNavView.swift in Sources */,
 				350A998D27A65CA50009B52B /* PhotoModelDataService.swift in Sources */,
 				35CA4F6727A265D200774434 /* Particle.swift in Sources */,
 				3571412327A6CAE000F16A1E /* PhotoModelFileManager.swift in Sources */,
@@ -583,12 +613,14 @@
 				35AB55672769AEB100BF0893 /* IntermediateSwiftUIApp.swift in Sources */,
 				350A998F27A6697D0009B52B /* DownloadingImagesRow.swift in Sources */,
 				350A998927A65A990009B52B /* PhotoModel.swift in Sources */,
+				354F5EB227AA8F70009B6212 /* AppNavBarView.swift in Sources */,
 				352B868827808A49007266E8 /* GenericsBootcamp.swift in Sources */,
 				35DE2741277E09A400F6AF5F /* CustomCurveBootcamp.swift in Sources */,
 				35DE273D277DE2A400F6AF5F /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				35C6ED1627A033E00020097A /* NewMockDataService.swift in Sources */,
 				35CD7E1A2785DB04009AD430 /* TypealiasBootcamp.swift in Sources */,
 				350A999327A66B020009B52B /* ImageLoadingViewModel.swift in Sources */,
+				354F5EB627AA9FDF009B6212 /* CustomNavBarContainerView.swift in Sources */,
 				35E28EA7279ADE65004E3B23 /* SubscriberBootcamp.swift in Sources */,
 				352E7096279D94E20088FCA8 /* FuturesBootcamp.swift in Sources */,
 				3519DAAF277D747C00B448C0 /* GeometryReaderBootcamp.swift in Sources */,

@@ -12,6 +12,7 @@ struct TabBarItemsPreferenceKey: PreferenceKey {
     static var defaultValue: [TabBarItem] = []
     
     static func reduce(value: inout [TabBarItem], nextValue: () -> [TabBarItem]) {
+        //we're going to take our tab bar items (value) and every time we add another tab our item we're going to append to the current array (nextValue)
         value += nextValue()
     }
 }
