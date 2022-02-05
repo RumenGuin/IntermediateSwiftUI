@@ -21,6 +21,8 @@
 		3519DAB6277D814B00B448C0 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3519DAB5277D814B00B448C0 /* tada.mp3 */; };
 		3519DAB8277D895500B448C0 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3519DAB7277D895500B448C0 /* AnyTransitionBootcamp.swift */; };
 		3519DABA277D9CAB00B448C0 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3519DAB9277D9CAB00B448C0 /* ViewModifierBootcamp.swift */; };
+		351CEA8027AE52A900E974AA /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CEA7F27AE52A900E974AA /* UIViewRepresentableBootcamp.swift */; };
+		351CEA8227AE6BD100E974AA /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351CEA8127AE6BD100E974AA /* UIViewControllerRepresentableBootcamp.swift */; };
 		351F04462793E6C300D239B9 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F04452793E6C300D239B9 /* FileManagerBootcamp.swift */; };
 		352AB59827A7AFB900F9F912 /* CoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AB59727A7AFB900F9F912 /* CoreDataRelationshipsBootcamp.swift */; };
 		352AB59B27A7B21400F9F912 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 352AB59927A7B21400F9F912 /* CoreDataContainer.xcdatamodeld */; };
@@ -115,6 +117,8 @@
 		3519DAB5277D814B00B448C0 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		3519DAB7277D895500B448C0 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
 		3519DAB9277D9CAB00B448C0 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
+		351CEA7F27AE52A900E974AA /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		351CEA8127AE6BD100E974AA /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		351F04452793E6C300D239B9 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		352AB59727A7AFB900F9F912 /* CoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
 		352AB59A27A7B21400F9F912 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -355,6 +359,8 @@
 				35C41AEC27A2EEC50057AD2E /* PreferenceKeyBootcamp */,
 				35439E4127AA480800300FD3 /* CustomTabBar */,
 				354F5EB027AA8F22009B6212 /* CustomNavBar */,
+				351CEA7F27AE52A900E974AA /* UIViewRepresentableBootcamp.swift */,
+				351CEA8127AE6BD100E974AA /* UIViewControllerRepresentableBootcamp.swift */,
 				352B868D2780B2BB007266E8 /* ProtocolsBootcamp.swift */,
 				3570C396279E864700EF8F31 /* DependencyInjectionBootcamp.swift */,
 				3568BEC8279FA62D00F7426B /* UnitTestingBootcamp */,
@@ -586,6 +592,7 @@
 				3519DAAD277D672E00B448C0 /* ScrollViewReaderBootcamp.swift in Sources */,
 				35439E4327AA482900300FD3 /* AppTabBarView.swift in Sources */,
 				35C41AF027A2F4EC0057AD2E /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
+				351CEA8027AE52A900E974AA /* UIViewRepresentableBootcamp.swift in Sources */,
 				352AB59B27A7B21400F9F912 /* CoreDataContainer.xcdatamodeld in Sources */,
 				358DE80B2789A66400B862BE /* DownloadWithCombineBootcamp.swift in Sources */,
 				35DE273F277DE8FD00F6AF5F /* CustomShapesBootcamp.swift in Sources */,
@@ -627,6 +634,7 @@
 				35C41AEE27A2EEF10057AD2E /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				35CA4F6B27A269D800774434 /* ParticleView.swift in Sources */,
 				35439E4B27AA5CA600300FD3 /* TabBarItem.swift in Sources */,
+				351CEA8227AE6BD100E974AA /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				35D6906D279D1A53000D38A1 /* CacheBootcamp.swift in Sources */,
 				352B868A2780A2E5007266E8 /* ViewBuilderBootcamp.swift in Sources */,
 				35439E4927AA54DB00300FD3 /* TabBarItemsPreferenceKey.swift in Sources */,
