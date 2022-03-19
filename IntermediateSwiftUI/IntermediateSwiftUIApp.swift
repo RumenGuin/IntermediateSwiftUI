@@ -30,7 +30,8 @@ struct IntermediateSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             //UITestingBootcampView(currentUserIsSignedIn: currentUserisSignedIn)
-            UIViewControllerRepresentableBootcamp()
+            //UIViewControllerRepresentableBootcamp()
+            ContactsDemo()
         }
     }
 }
